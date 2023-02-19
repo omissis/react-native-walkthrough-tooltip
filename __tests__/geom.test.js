@@ -12,6 +12,9 @@ const options1 = {
   childRect: new Rect(24, 350, 64, 64),
   contentSize: new Size(200, 100),
   arrowSize: new Size(16, 8),
+  windowDims: { width: 640, height: 480 },
+  childContentSpacing: 10,
+  displayInsets: { top: 0, right: 0, bottom: 0, left: 0 }
 };
 
 const options2 = {
@@ -19,6 +22,9 @@ const options2 = {
   childRect: new Rect(240, 350, 64, 64),
   contentSize: new Size(150, 200),
   arrowSize: new Size(7, 18),
+  windowDims: { width: 640, height: 480 },
+  childContentSpacing: 10,
+  displayInsets: { top: 0, right: 0, bottom: 0, left: 0 }
 };
 
 const options3 = {
@@ -26,6 +32,9 @@ const options3 = {
   childRect: new Rect(24, 35, 150, 200),
   contentSize: new Size(300, 500),
   arrowSize: new Size(16, 8),
+  windowDims: { width: 640, height: 480 },
+  childContentSpacing: 10,
+  displayInsets: { top: 0, right: 0, bottom: 0, left: 0 }
 };
 
 describe('Testing Computing Geometry', () => {
