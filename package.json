@@ -4,7 +4,8 @@
   "description": "An inline wrapper for calling out React Native components via tooltip",
   "main": "src/tooltip.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": ""
   },
   "repository": {
     "type": "git",
